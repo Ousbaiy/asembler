@@ -1,0 +1,10 @@
+﻿  inLine.cpp
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(15,5): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(16,9): error C2065: 'mov': undeclared identifier
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(16,13): error C2146: syntax error: missing ';' before identifier 'eax'
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(16,13): error C2065: 'eax': undeclared identifier
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(17,9): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(17,9): error C2065: 'mov': undeclared identifier
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(17,13): error C2146: syntax error: missing ';' before identifier 'result'
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(17,21): error C2065: 'eax': undeclared identifier
+C:\Users\Oussama\Desktop\assembler\inLine.cpp(18,5): error C2143: syntax error: missing ';' before '}'
