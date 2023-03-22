@@ -2,26 +2,28 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     int a = 5;
     int b = 3;
-    int result;
+    int c = 0;
+    int result = 0;
+    char test = 0;
 
-    __asm
-    {
-        mov eax, a      ; move a into eax
-        dec eax         ; subtract 1 from a
-        shr eax, 1      ; divide a by 2 using right shift
-        mov ebx, b      ; move b into ebx
-        inc ebx         ; add 1 to b
-        shl ebx, 2      ; multiply b by 4 using left shift
-        add eax, ebx    ; add the results of the previous calculations
-        mov result, eax ; move the result into the variable 'result'
+    __asm {
+        xor edx, edx
+        mov eax, a
+        sub eax, b; subtract b from a
+        cmp eax, 0
+        setg dl; set lower byte of eax to 1 if a - b > 0
+        cmp c, 0; compare c with 0
+        seten test
+        and dl, test
+        mov result, edx
+
+
     }
 
-    cout << "(a-1)/2 + 4*(b+1) = " << result << endl;
+    cout << "Result: " << result << endl;
 
     return 0;
 }
-
