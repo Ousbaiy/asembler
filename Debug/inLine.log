@@ -1,3 +1,2 @@
 ﻿  inLine.cpp
-C:\Users\Oussama\Desktop\Master Slides\Computer Architucter\Projects\assembler\inLine.cpp(19,15): error C2400: inline assembler syntax error in 'opcode'; found 'opcode'
-C:\Users\Oussama\Desktop\Master Slides\Computer Architucter\Projects\assembler\inLine.cpp(20,9): warning C4405: 'test': identifier is reserved word
+  inLine.vcxproj -> C:\Users\Oussama\Desktop\Master Slides\Computer Architucter\Projects\assembler\Debug\inLine.exe
