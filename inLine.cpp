@@ -79,8 +79,13 @@ float calculate(float a, float b, float c) {
     return result1;
 }
 
-int main() {
-    float a = 1.0, b = 4.0, c = 3.0;   // coefficients of the quadratic equation
+int main(float a, float b, float c) {
+    cout << "a = " << endl;
+    cout << "b = " << endl;
+    cout << "c = " << endl; 
+    cin >> a;
+    cin >> b;
+    cin >> c;
     float root1 = calculate(a, b, c);  // calculate the first root
     cout << "Roots of the equation " << a << "x^2 + " << b << "x + " << c;
 }
